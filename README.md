@@ -20,3 +20,5 @@
 	+ Marginal Expected Shortfall: 
 		+ All output data is stored as dataframes in the resulting class `covarr`
 		+ Marginal Expected Shortfall: two excel files are saved in the home folder: (1) tableMain.xlsx; (2)  NetworkESMatrix.xlsx
+
++ Systemic risk rankings are based on a ranking by PC to ES (`tableMain['PCtoES99']`). This is similar to what we have in the Policy Note, you just need to execute in the end `tableMain['PCtoES99']*tableMain['ES99']['Sys']/100`  
