@@ -1,7 +1,7 @@
 # Systemic Risk, Instructions 
 
 
-+ Put the data files in the folder `Data`. Follow the data formats in the sample files. It is important to set the same names for the institutions in each file. Input data includes:  
++ Put the data files in the folder `data`. Follow the data formats in the sample files. It is important to set the same names for the institutions in each file. Input data includes:  
 
 	+ CDS rates (in bps) in `cds`
 	+ Total liabilities of the institutions are in `debt` 
